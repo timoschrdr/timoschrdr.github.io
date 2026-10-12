@@ -112,8 +112,9 @@ details[open] .menu li {
 }
 
 .menu a:hover {
-    color: #b9d1ff;
+    color: #0025ff;
     font-style: italic;
+    text-shadow: 0 .1rem 1rem rgb(0 37 255 / 45%);
 }
 
 .menu li:nth-child(2) {
@@ -135,9 +136,7 @@ details[open] .menu li {
 .legal-page {
     min-height: 100vh;
     color: #dbe5ff;
-    background:
-        radial-gradient(circle at 88% -12%, #103f9d 0, transparent 38rem),
-        #05070d;
+    background: linear-gradient(to bottom, #05070d 0%, #05070d 56%, #0025ff 100%);
 }
 
 .legal-content {
@@ -208,13 +207,14 @@ details[open] .menu li {
     overflow: hidden;
     padding: 2rem;
     border-top: 1px solid rgb(193 214 255 / 10%);
+    background: linear-gradient(to bottom, #0025ff 0%, #16215f 32%, #2b2300 100%);
 }
 
 .legal-watermark {
     position: absolute;
     bottom: 2.4rem;
     left: 50%;
-    color: rgb(107 157 255 / 14%);
+    color: #0025ff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: clamp(5rem, 16vw, 20rem);
     font-weight: 700;
